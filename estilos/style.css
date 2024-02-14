@@ -38,6 +38,25 @@ main{
 }
 
 #redes{
+    text-align: right;
+}
+
+section img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.726);
+    box-sizing: border-box;
+    
+
+}
+
+section img:hover{
+    transition: 0.9ms all;
+    border: 3px solid rgba(221, 218, 59, 0.76);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.7s, border 0.4s;
 
 }
 
